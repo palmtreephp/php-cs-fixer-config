@@ -10,7 +10,7 @@ PHP-CS-Fixer config for Palmtree components
 Use composer to add the package to your dev dependencies:
 
 ```bash
-composer require palmtree/php-cs-fixer-config
+composer require palmtree/php-cs-fixer-config --dev
 ```
 
 ```json
