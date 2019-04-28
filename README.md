@@ -22,7 +22,7 @@ composer require palmtree/php-cs-fixer-config --dev
 
 ## Usage
 
-Create a `.php_cs.fist` file in your project's root directory. 
+Create a `.php_cs.dist` file in your project's root directory. 
 You can copy a typical config file from this repository desired
 
 ```bash
@@ -32,8 +32,8 @@ $ cp vendor/palmtree/php-cs-fixer-config/.php_cs.dist .
 Add the following entries to your `.gitignore` file:
 
 ```
-.php_cs.cache
-.php_cs
+/.php_cs.cache
+/.php_cs
 ```
 
 ## Fixing Issues
@@ -49,7 +49,7 @@ $ composer fix
 To perform a dry run, run the following command:
 
 ```bash
-$ composer fix
+$ composer sniff
 ```
 
 ### Pre-commit hook
