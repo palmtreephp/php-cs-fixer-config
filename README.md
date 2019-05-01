@@ -23,7 +23,7 @@ composer require palmtree/php-cs-fixer-config --dev
 ## Usage
 
 Create a `.php_cs.dist` file in your project's root directory. 
-You can copy a typical config file from this repository desired
+You can copy a typical config file from this repository if desired:
 
 ```bash
 $ cp vendor/palmtree/php-cs-fixer-config/.php_cs.dist .
