@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace Palmtree\PhpCsFixerConfig;
 
@@ -21,6 +21,10 @@ final class Config extends \PhpCsFixer\Config
             'phpdoc_inline_tag'             => false,
             'phpdoc_annotation_without_dot' => false,
             'cast_spaces'                   => ['space' => 'none'],
+            'no_superfluous_phpdoc_tags'    => true,
+            'blank_line_after_opening_tag'  => false,
+            'linebreak_after_opening_tag'   => false,
+            'declare_strict_types'          => true,
         ]);
 
         $this->setRiskyAllowed(true);

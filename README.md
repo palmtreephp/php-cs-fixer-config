@@ -3,7 +3,7 @@
 PHP-CS-Fixer config for Palmtree components
 
 ## Requirements
-* PHP >= 5.6
+* PHP >= 7.1
 
 ## Installation
 
@@ -22,7 +22,7 @@ composer require palmtree/php-cs-fixer-config --dev
 
 ## Usage
 
-Create a `.php_cs.dist` file in your project's root directory. 
+Create a `.php_cs.dist` file in your project's root directory.
 You can copy a typical config file from this repository if desired:
 
 ```bash
