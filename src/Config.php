@@ -22,9 +22,8 @@ final class Config extends \PhpCsFixer\Config
             'phpdoc_annotation_without_dot' => false,
             'cast_spaces'                   => ['space' => 'none'],
             'no_superfluous_phpdoc_tags'    => true,
-            'blank_line_after_opening_tag'  => false,
-            'linebreak_after_opening_tag'   => false,
             'declare_strict_types'          => true,
+            'echo_tag_syntax'               => false,
         ]);
 
         $this->setRiskyAllowed(true);
