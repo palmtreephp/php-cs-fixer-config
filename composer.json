@@ -11,8 +11,8 @@
         }
     ],
     "require": {
-        "php": ">=7.1",
-        "friendsofphp/php-cs-fixer": "~2.14"
+        "php": ">=7.4",
+        "friendsofphp/php-cs-fixer": "^3.0"
     },
     "autoload": {
         "psr-4": {
@@ -22,6 +22,6 @@
     "scripts": {
         "sniff": "vendor/bin/php-cs-fixer fix -v --dry-run --stop-on-violation --using-cache=no --diff --diff-format=udiff",
         "fix": "vendor/bin/php-cs-fixer fix --diff",
-        "lint": "find -L src -path src -prune -o -type f -name '*.php' -print0 | xargs -0 -n 1 -P 4 php -l"
+        "lint": "find -L src -type f -name '*.php' -print0 | xargs -0 -n 1 -P 4 php -l"
     }
 }
