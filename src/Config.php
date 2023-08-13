@@ -34,6 +34,13 @@ final class Config extends \PhpCsFixer\Config
                 'allow_mixed' => true,
             ],
             'echo_tag_syntax' => false,
+            'global_namespace_import' => [
+                'import_constants' => false,
+                'import_classes' => false,
+            ],
+            'void_return' => true,
+            'single_line_throw' => false,
+            'use_arrow_functions' => true,
         ]);
 
         $this->setRiskyAllowed(true);
