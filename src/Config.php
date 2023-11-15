@@ -18,6 +18,8 @@ final class Config extends \PhpCsFixer\Config
             'fopen_flags' => false,
             'ordered_imports' => true,
             'protected_to_private' => false,
+            // Prevent Psalm/PHPStan inline annotations being stripped. https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/4446
+            'phpdoc_to_comment' => false,
             // Bad yoda style is
             'yoda_style' => false,
             'phpdoc_annotation_without_dot' => false,
